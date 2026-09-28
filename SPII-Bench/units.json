@@ -1,0 +1,1142 @@
+[
+ {
+  "uid": "PY01",
+  "lang": "python",
+  "title": "Algorithm #1 — Even or Odd",
+  "desc": "Algorithm #1 — Even or Odd\n\nรับจำนวนเต็ม แล้วตรวจว่าเป็นเลขคู่ (Even) หรือเลขคี่ (Odd)\n\nตัวอย่าง\nInput:\n7\nOutput:\nOdd\n",
+  "java_loc": 8,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "7\n\n",
+    "expected": "<must>\nOdd\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "10\n",
+    "expected": "<must>\nEven\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "0\n",
+    "expected": "<must>\nEven\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "-3\n",
+    "expected": "<must>\nOdd\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C01",
+  "lang": "c",
+  "title": "Algorithm #12 — Largest of Three",
+  "desc": "Algorithm #12 — Largest of Three\n\nรับจำนวนเต็ม 3 จำนวน แล้วหาค่าที่มากที่สุด\n\nตัวอย่าง\nInput:\n3 9 5\nOutput:\n9\n",
+  "java_loc": 8,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "3 9 5\n\n",
+    "expected": "<must>\n9\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "10 10 10\n",
+    "expected": "<must>\n10\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "-1 -5 -3\n",
+    "expected": "<must>\n-1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "7 2 9\n",
+    "expected": "<must>\n9\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY02",
+  "lang": "python",
+  "title": "Grade Evaluator #1 — Pass or Fail",
+  "desc": "Grade Evaluator #1 — Pass or Fail\n\nรับคะแนน (0-100) ถ้าคะแนน >= 50 ให้พิมพ์ Pass ไม่เช่นนั้นพิมพ์ Fail\n\nรูปแบบ Input : คะแนน (จำนวนเต็ม)\nรูปแบบ Output : Pass หรือ Fail\n\nตัวอย่าง\nInput:\n72\nOutput:\nPass",
+  "java_loc": 8,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "72\n\n",
+    "expected": "<must>\nPass\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "49\n",
+    "expected": "<must>\nFail\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "50\n",
+    "expected": "<must>\nPass\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "100\n",
+    "expected": "<must>\nPass\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C02",
+  "lang": "c",
+  "title": "Algorithm #11 — Palindrome Check",
+  "desc": "Algorithm #11 — Palindrome Check\n\nรับข้อความ 1 บรรทัด แล้วตรวจว่าอ่านหน้าไปหลังเหมือนกันหรือไม่ (ไม่สนตัวพิมพ์ใหญ่/เล็ก)\n\nตัวอย่าง\nInput:\nLevel\nOutput:\nPalindrome\n",
+  "java_loc": 9,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "Level\n\n",
+    "expected": "<must>\nPalindrome\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "hello\n",
+    "expected": "<must>\nNot palindrome\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "Noon\n",
+    "expected": "<must>\nPalindrome\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "abba\n",
+    "expected": "<must>\nPalindrome\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY03",
+  "lang": "python",
+  "title": "Algorithm #7 — GCD (Greatest Common Divisor)",
+  "desc": "Algorithm #7 — GCD (Greatest Common Divisor)\n\nรับจำนวนเต็มบวก 2 จำนวน แล้วหา ห.ร.ม. ด้วยวิธี Euclid\n\nตัวอย่าง\nInput:\n48 18\nOutput:\n6\n",
+  "java_loc": 9,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "48 18\n\n",
+    "expected": "<must>\n6\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "100 75\n",
+    "expected": "<must>\n25\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "17 5\n",
+    "expected": "<must>\n1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "12 12\n",
+    "expected": "<must>\n12\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C03",
+  "lang": "c",
+  "title": "Basic Calculator #1 — Add Two Numbers",
+  "desc": "Basic Calculator #1 — Add Two Numbers\n\nเขียนโปรแกรมรับจำนวนเต็ม 2 จำนวน แล้วแสดงผลรวม\n\nรูปแบบ Input : จำนวนเต็ม a และ b (บรรทัดละตัว หรือเว้นวรรค)\nรูปแบบ Output : ผลรวม a + b\n\nตัวอย่าง\nInput:\n3\n5\nOutput:\n8",
+  "java_loc": 9,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "3\n5\n\n",
+    "expected": "<must>\n8\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "100\n200\n",
+    "expected": "<must>\n300\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "-5\n8\n",
+    "expected": "<must>\n3\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "0\n0\n",
+    "expected": "<must>\n0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY04",
+  "lang": "python",
+  "title": "Algorithm #2 — Sum of Digits",
+  "desc": "Algorithm #2 — Sum of Digits\n\nรับจำนวนเต็มบวก แล้วหาผลรวมของเลขแต่ละหลัก\n\nตัวอย่าง\nInput:\n1234\nOutput:\n10\n",
+  "java_loc": 10,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "1234\n\n",
+    "expected": "<must>\n10\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "9999\n",
+    "expected": "<must>\n36\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "0\n",
+    "expected": "<must>\n0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "100\n",
+    "expected": "<must>\n1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C04",
+  "lang": "c",
+  "title": "Algorithm #30 — Divisors of a Number",
+  "desc": "Algorithm #30 — Divisors of a Number\n\nรับจำนวนเต็มบวก n แล้วพิมพ์ตัวหารทั้งหมดของ n เรียงจากน้อยไปมาก คั่นด้วยช่องว่าง\n\nตัวอย่าง\nInput:\n12\nOutput:\n1 2 3 4 6 12\n",
+  "java_loc": 10,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "12\n\n",
+    "expected": "<must>\n1 2 3 4 6 12\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "7\n",
+    "expected": "<must>\n1 7\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n",
+    "expected": "<must>\n1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "16\n",
+    "expected": "<must>\n1 2 4 8 16\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY05",
+  "lang": "python",
+  "title": "Algorithm #5 — Prime Number Check",
+  "desc": "Algorithm #5 — Prime Number Check\n\nรับจำนวนเต็ม n แล้วตรวจว่าเป็นจำนวนเฉพาะหรือไม่ (พิมพ์ Prime / Not prime)\n\nตัวอย่าง\nInput:\n13\nOutput:\nPrime\n",
+  "java_loc": 10,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "13\n\n",
+    "expected": "<must>\nPrime\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "1\n",
+    "expected": "<must>\nNot prime\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n",
+    "expected": "<must>\nPrime\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "15\n",
+    "expected": "<must>\nNot prime\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C05",
+  "lang": "c",
+  "title": "Algorithm #8 — LCM (Least Common Multiple)",
+  "desc": "Algorithm #8 — LCM (Least Common Multiple)\n\nรับจำนวนเต็มบวก 2 จำนวน แล้วหา ค.ร.น. (ใช้ LCM = a*b/GCD)\n\nตัวอย่าง\nInput:\n4 6\nOutput:\n12\n",
+  "java_loc": 10,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "4 6\n\n",
+    "expected": "<must>\n12\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3 5\n",
+    "expected": "<must>\n15\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "6 8\n",
+    "expected": "<must>\n24\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "7 1\n",
+    "expected": "<must>\n7\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY06",
+  "lang": "python",
+  "title": "Loops and Patterns #2 — Multiplication Table",
+  "desc": "Loops and Patterns #2 — Multiplication Table\n\nรับจำนวนเต็ม n แล้วพิมพ์สูตรคูณแม่ n ตั้งแต่ 1 ถึง 12\n\nรูปแบบ Output (แต่ละบรรทัด) : n x i = ผลคูณ\n\nตัวอย่าง\nInput:\n7\nOutput:\n7 x 1 = 7\n7 x 2 = 14\n...\n7 x 12 = 84",
+  "java_loc": 10,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "7\n\n",
+    "expected": "<must>\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70\n7 x 11 = 77\n7 x 12 = 84\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "2\n",
+    "expected": "<must>\n2 x 1 = 2\n2 x 2 = 4\n2 x 3 = 6\n2 x 4 = 8\n2 x 5 = 10\n2 x 6 = 12\n2 x 7 = 14\n2 x 8 = 16\n2 x 9 = 18\n2 x 10 = 20\n2 x 11 = 22\n2 x 12 = 24\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "5\n",
+    "expected": "<must>\n5 x 1 = 5\n5 x 2 = 10\n5 x 3 = 15\n5 x 4 = 20\n5 x 5 = 25\n5 x 6 = 30\n5 x 7 = 35\n5 x 8 = 40\n5 x 9 = 45\n5 x 10 = 50\n5 x 11 = 55\n5 x 12 = 60\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "10\n",
+    "expected": "<must>\n10 x 1 = 10\n10 x 2 = 20\n10 x 3 = 30\n10 x 4 = 40\n10 x 5 = 50\n10 x 6 = 60\n10 x 7 = 70\n10 x 8 = 80\n10 x 9 = 90\n10 x 10 = 100\n10 x 11 = 110\n10 x 12 = 120\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C06",
+  "lang": "c",
+  "title": "Algorithm #14 — Sum and Average of Array",
+  "desc": "Algorithm #14 — Sum and Average of Array\n\nรับจำนวน n แล้วตามด้วยตัวเลข n ตัว แล้วหาผลรวมและค่าเฉลี่ย (ทศนิยม 2 ตำแหน่ง)\n\nตัวอย่าง\nInput:\n5\n10 20 30 40 50\nOutput:\nSum = 150\nAverage = 30.00\n",
+  "java_loc": 11,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n10 20 30 40 50\n\n",
+    "expected": "<must>\nSum = 150\nAverage = 30.00\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n1 2 3\n",
+    "expected": "<must>\nSum = 6\nAverage = 2.00\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n7\n",
+    "expected": "<must>\nSum = 7\nAverage = 7.00\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "2\n5 10\n",
+    "expected": "<must>\nSum = 15\nAverage = 7.50\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY07",
+  "lang": "python",
+  "title": "Algorithm #16 — Power (a^b)",
+  "desc": "Algorithm #16 — Power (a^b)\n\nรับ a และ b (b ไม่ติดลบ) แล้วคำนวณ a ยกกำลัง b โดยไม่ใช้ Math.pow\n\nตัวอย่าง\nInput:\n2 10\nOutput:\n1024\n",
+  "java_loc": 11,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "2 10\n\n",
+    "expected": "<must>\n1024\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "5 0\n",
+    "expected": "<must>\n1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "3 3\n",
+    "expected": "<must>\n27\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "10 2\n",
+    "expected": "<must>\n100\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C07",
+  "lang": "c",
+  "title": "Algorithm #27 — Fibonacci Series",
+  "desc": "Algorithm #27 — Fibonacci Series\n\nรับจำนวน n แล้วพิมพ์ลำดับฟีโบนักชี n พจน์แรก เริ่มจาก 0 1 คั่นด้วยช่องว่าง\n\nตัวอย่าง\nInput:\n8\nOutput:\n0 1 1 2 3 5 8 13\n",
+  "java_loc": 11,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "8\n\n",
+    "expected": "<must>\n0 1 1 2 3 5 8 13\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "1\n",
+    "expected": "<must>\n0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n",
+    "expected": "<must>\n0 1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "5\n",
+    "expected": "<must>\n0 1 1 2 3\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY08",
+  "lang": "python",
+  "title": "Algorithm #18 — Armstrong Number",
+  "desc": "Algorithm #18 — Armstrong Number\n\nรับจำนวนเต็ม n แล้วตรวจว่าเป็นเลข Armstrong หรือไม่ (ผลรวมของแต่ละหลักยกกำลังจำนวนหลัก = ตัวมันเอง เช่น 153 = 1^3+5^3+3^3)\n\nตัวอย่าง\nInput:\n153\nOutput:\nArmstrong\n",
+  "java_loc": 12,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "153\n\n",
+    "expected": "<must>\nArmstrong\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "9474\n",
+    "expected": "<must>\nArmstrong\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "10\n",
+    "expected": "<must>\nNot armstrong\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "370\n",
+    "expected": "<must>\nArmstrong\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C08",
+  "lang": "c",
+  "title": "Algorithm #23 — Binary Search",
+  "desc": "Algorithm #23 — Binary Search\n\nรับจำนวน n แล้วตามด้วยตัวเลข n ตัว (เรียงจากน้อยไปมากแล้ว) และค่าที่ต้องการค้นหา พิมพ์ตำแหน่ง index (เริ่มที่ 0) หรือ Not found\n\nตัวอย่าง\nInput:\n5\n1 3 5 7 9\n7\nOutput:\nFound at index 3\n",
+  "java_loc": 13,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n1 3 5 7 9\n7\n\n",
+    "expected": "<must>\nFound at index 3\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "5\n1 3 5 7 9\n4\n",
+    "expected": "<must>\nNot found\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "5\n1 3 5 7 9\n1\n",
+    "expected": "<must>\nFound at index 0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "5\n1 3 5 7 9\n9\n",
+    "expected": "<must>\nFound at index 4\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY09",
+  "lang": "python",
+  "title": "Loops and Patterns #1 — Count to N",
+  "desc": "Loops and Patterns #1 — Count to N\n\nรับจำนวนเต็ม n แล้วพิมพ์เลข 1 ถึง n คั่นด้วยช่องว่างในบรรทัดเดียว\n\nตัวอย่าง\nInput:\n5\nOutput:\n1 2 3 4 5",
+  "java_loc": 13,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n\n",
+    "expected": "<must>\n1 2 3 4 5\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n",
+    "expected": "<must>\n1 2 3\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n",
+    "expected": "<must>\n1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "7\n",
+    "expected": "<must>\n1 2 3 4 5 6 7\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C09",
+  "lang": "c",
+  "title": "Loops and Patterns #3 — Star Pyramid",
+  "desc": "Loops and Patterns #3 — Star Pyramid\n\nรับความสูง n แล้วพิมพ์พีระมิดดาวจัดกึ่งกลาง\nแถวที่ i มีช่องว่างนำหน้า (n - i) ช่อง และมีดาว (2*i - 1) ดวง\n\nตัวอย่าง\nInput:\n4\nOutput:\n   *\n  ***\n *****\n*******",
+  "java_loc": 13,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "4\n\n",
+    "expected": "<must>\n   *\n  ***\n *****\n*******\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "2\n",
+    "expected": "<must>\n *\n***\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n",
+    "expected": "<must>\n*\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "3\n",
+    "expected": "<must>\n  *\n ***\n*****\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY10",
+  "lang": "python",
+  "title": "Algorithm #21 — Second Largest in Array",
+  "desc": "Algorithm #21 — Second Largest in Array\n\nรับจำนวน n แล้วตามด้วยตัวเลข n ตัว แล้วหาค่าที่มากเป็นอันดับสอง (ค่าที่ไม่ซ้ำกัน)\n\nตัวอย่าง\nInput:\n5\n10 20 20 8 15\nOutput:\nSecond largest = 15\n",
+  "java_loc": 14,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n10 20 20 8 15\n\n",
+    "expected": "<must>\nSecond largest = 15\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "4\n1 2 3 4\n",
+    "expected": "<must>\nSecond largest = 3\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "5\n100 50 50 50 90\n",
+    "expected": "<must>\nSecond largest = 90\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "3\n2 8 5\n",
+    "expected": "<must>\nSecond largest = 5\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C10",
+  "lang": "c",
+  "title": "Geometry Area #1 — Rectangle",
+  "desc": "Geometry Area #1 — Rectangle\n\nรับความกว้างและความสูงของสี่เหลี่ยมผืนผ้า แล้วแสดงพื้นที่และเส้นรอบรูป\n\nรูปแบบ Input : width  height\nรูปแบบ Output :\nArea = ...\nPerimeter = ...\n\nตัวอย่าง\nInput:\n4\n6\nOutput:\nArea = 24\nPerimeter = 20",
+  "java_loc": 14,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "4\n6\n\n",
+    "expected": "<must>\nArea = 24\nPerimeter = 20\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "5\n5\n",
+    "expected": "<must>\nArea = 25\nPerimeter = 20\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "10\n2\n",
+    "expected": "<must>\nArea = 20\nPerimeter = 24\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n1\n",
+    "expected": "<must>\nArea = 1\nPerimeter = 4\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY11",
+  "lang": "python",
+  "title": "Grade Evaluator #2 — Letter Grade",
+  "desc": "Grade Evaluator #2 — Letter Grade\n\nแปลงคะแนนเป็นเกรดตัวอักษร\nA : 80-100, B : 70-79, C : 60-69, D : 50-59, F : 0-49\n\nรูปแบบ Input : คะแนน (จำนวนเต็ม)\nรูปแบบ Output : เกรด A/B/C/D/F\n\nตัวอย่าง\nInput:\n85\nOutput:\nA",
+  "java_loc": 14,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "85\n\n",
+    "expected": "<must>\nA\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "55\n",
+    "expected": "<must>\nD\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "72\n",
+    "expected": "<must>\nB\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "45\n",
+    "expected": "<must>\nF\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C11",
+  "lang": "c",
+  "title": "Algorithm #22 — Bubble Sort",
+  "desc": "Algorithm #22 — Bubble Sort\n\nรับจำนวน n แล้วตามด้วยตัวเลข n ตัว แล้วเรียงจากน้อยไปมากด้วย Bubble Sort พิมพ์คั่นด้วยช่องว่าง\n\nตัวอย่าง\nInput:\n5\n5 2 9 1 7\nOutput:\n1 2 5 7 9\n",
+  "java_loc": 15,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n5 2 9 1 7\n\n",
+    "expected": "<must>\n1 2 5 7 9\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n3 1 2\n",
+    "expected": "<must>\n1 2 3\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n5\n",
+    "expected": "<must>\n5\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "4\n4 3 2 1\n",
+    "expected": "<must>\n1 2 3 4\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY12",
+  "lang": "python",
+  "title": "Simple Bank Account #1 — One Transaction",
+  "desc": "Simple Bank Account #1 — One Transaction\n\nรับยอดเงินตั้งต้น, ประเภทรายการ (D = ฝาก, W = ถอน), และจำนวนเงิน\nแล้วแสดงยอดคงเหลือใหม่\n\nรูปแบบ Input : balance  op(D/W)  amount\nรูปแบบ Output : Balance = ...\n\nตัวอย่าง\nInput:\n1000\nD\n250\nOutput:\nBalance = 1250",
+  "java_loc": 16,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "1000\nD\n250\n\n",
+    "expected": "<must>\nBalance = 1250\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "1000\nW\n300\n",
+    "expected": "<must>\nBalance = 700\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "500\nD\n500\n",
+    "expected": "<must>\nBalance = 1000\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "0\nW\n100\n",
+    "expected": "<must>\nBalance = -100\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C12",
+  "lang": "c",
+  "title": "Geometry Area #2 — Shape Menu",
+  "desc": "Geometry Area #2 — Shape Menu\n\nเลือกชนิดรูป แล้วรับค่าที่จำเป็น จากนั้นคำนวณพื้นที่ (ทศนิยม 2 ตำแหน่ง)\n1 = วงกลม (รับรัศมี r)     พื้นที่ = pi*r*r\n2 = สี่เหลี่ยม (รับ w, h)    พื้นที่ = w*h\n3 = สามเหลี่ยม (รับ base, height) พื้นที่ = 0.5*base*height\n\nรูปแบบ Input : choice แล้วตามด้วยค่าของรูปนั้น\nรูปแบบ Output : Area = ...\n\nตัวอย่าง\nInput:\n1\n5\nOutput:\nArea = 78.54",
+  "java_loc": 19,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "1\n5\n\n",
+    "expected": "<must>\nArea = 78.54\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n10\n4\n",
+    "expected": "<must>\nArea = 20.00\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n5\n5\n",
+    "expected": "<must>\nArea = 25.00\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n1\n",
+    "expected": "<must>\nArea = 3.14\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY13",
+  "lang": "python",
+  "title": "Grade Evaluator #3 — Class Summary",
+  "desc": "Grade Evaluator #3 — Class Summary\n\nรับจำนวนนักเรียน n แล้วตามด้วยคะแนน n ตัว จากนั้นสรุป:\nจำนวนที่ผ่าน (>=50), จำนวนที่ตก, ค่าเฉลี่ย (ทศนิยม 2 ตำแหน่ง), คะแนนสูงสุด\n\nรูปแบบ Output :\nPassed = ...\nFailed = ...\nAverage = ...\nHighest = ...\n\nตัวอย่าง\nInput:\n5\n80\n45\n60\n30\n95\nOutput:\nPassed = 3\nFailed = 2\nAverage = 62.00\nHighest = 95",
+  "java_loc": 19,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n80\n45\n60\n30\n95\n\n",
+    "expected": "<must>\nPassed = 3\nFailed = 2\nAverage = 62.00\nHighest = 95\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n100\n0\n50\n",
+    "expected": "<must>\nPassed = 2\nFailed = 1\nAverage = 50.00\nHighest = 100\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n49\n50\n",
+    "expected": "<must>\nPassed = 1\nFailed = 1\nAverage = 49.50\nHighest = 50\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n77\n",
+    "expected": "<must>\nPassed = 1\nFailed = 0\nAverage = 77.00\nHighest = 77\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C13",
+  "lang": "c",
+  "title": "Geometry Area #3 — Total Area",
+  "desc": "Geometry Area #3 — Total Area\n\nรับจำนวนรูป n แล้วแต่ละบรรทัดเป็นข้อมูลของรูปหนึ่ง (type แล้วตามด้วยค่า)\ntype 1 = วงกลม (r), 2 = สี่เหลี่ยม (w h), 3 = สามเหลี่ยม (base height)\nรวมพื้นที่ทั้งหมดแล้วแสดงผล (ทศนิยม 2 ตำแหน่ง)\n\nตัวอย่าง\nInput:\n3\n1 2\n2 3 4\n3 6 2\nOutput:\nTotal area = 30.57\n(อธิบาย: วงกลม r=2 -> 12.57, สี่เหลี่ยม 3x4 -> 12, สามเหลี่ยม 0.5*6*2 -> 6 รวม 30.57)",
+  "java_loc": 22,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "3\n1 2\n2 3 4\n3 6 2\n\n",
+    "expected": "<must>\nTotal area = 30.57\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "1\n2 5 5\n",
+    "expected": "<must>\nTotal area = 25.00\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n1 1\n2 2 3\n",
+    "expected": "<must>\nTotal area = 9.14\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n1 10\n",
+    "expected": "<must>\nTotal area = 314.16\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY14",
+  "lang": "python",
+  "title": "Basic Calculator #3 — Multi-Number Stats",
+  "desc": "Basic Calculator #3 — Multi-Number Stats\n\nรับจำนวน n แล้วตามด้วยตัวเลข n ตัว จากนั้นแสดง ผลรวม ค่าเฉลี่ย ค่ามากสุด และค่าน้อยสุด\n\nรูปแบบ Input : n แล้วตามด้วยตัวเลข n ตัว\nรูปแบบ Output :\nSum = ...\nAverage = ...\nMax = ...\nMin = ...\n\nตัวอย่าง\nInput:\n5\n10\n20\n30\n40\n50\nOutput:\nSum = 150\nAverage = 30\nMax = 50\nMin = 10",
+  "java_loc": 23,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "5\n10\n20\n30\n40\n50\n\n",
+    "expected": "<must>\nSum = 150\nAverage = 30\nMax = 50\nMin = 10\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "3\n5\n5\n5\n",
+    "expected": "<must>\nSum = 15\nAverage = 5\nMax = 5\nMin = 5\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "4\n1\n2\n3\n4\n",
+    "expected": "<must>\nSum = 10\nAverage = 2.50\nMax = 4\nMin = 1\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n7\n",
+    "expected": "<must>\nSum = 7\nAverage = 7\nMax = 7\nMin = 7\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C14",
+  "lang": "c",
+  "title": "Basic Calculator #2 — Simple Calculator",
+  "desc": "Basic Calculator #2 — Simple Calculator\n\nรับตัวเลข a, เครื่องหมาย op (+ - * /), และตัวเลข b แล้วคำนวณ a op b\n- ถ้าหารด้วย 0 ให้พิมพ์ : Error: division by zero\n- ถ้า op ไม่ถูกต้อง ให้พิมพ์ : Error: invalid operator\n- ถ้าผลลัพธ์เป็นจำนวนเต็มพอดี ให้แสดงแบบไม่มีจุดทศนิยม\n\nรูปแบบ Input : a  op  b\nรูปแบบ Output : ผลลัพธ์\n\nตัวอย่าง\nInput:\n6\n*\n7\nOutput:\n42",
+  "java_loc": 25,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "6\n*\n7\n\n",
+    "expected": "<must>\n42\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "10\n/\n0\n",
+    "expected": "<must>\nError: division by zero\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "9\n-\n4\n",
+    "expected": "<must>\n5\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "8\n%\n2\n",
+    "expected": "<must>\nError: invalid operator\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ },
+ {
+  "uid": "PY15",
+  "lang": "python",
+  "title": "Simple Bank Account #2 — Menu Loop",
+  "desc": "Simple Bank Account #2 — Menu Loop\n\nเริ่มยอด 0 วนเมนูรับคำสั่งจนกว่าจะเลือก 4\n1 = Deposit (รับจำนวน)  -> Deposited x, Balance = ...\n2 = Withdraw (รับจำนวน) -> Withdrew x, Balance = ...\n3 = Balance             -> Balance = ...\n4 = Exit                -> Goodbye\n\nตัวอย่าง\nInput:\n1\n500\n2\n200\n3\n4\nOutput:\nDeposited 500, Balance = 500\nWithdrew 200, Balance = 300\nBalance = 300\nGoodbye",
+  "java_loc": 28,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "1\n500\n2\n200\n3\n4\n\n",
+    "expected": "<must>\nDeposited 500, Balance = 500\nWithdrew 200, Balance = 300\nBalance = 300\nGoodbye\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "1\n100\n3\n4\n",
+    "expected": "<must>\nDeposited 100, Balance = 100\nBalance = 100\nGoodbye\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "2\n50\n4\n",
+    "expected": "<must>\nWithdrew 50, Balance = -50\nGoodbye\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "3\n4\n",
+    "expected": "<must>\nBalance = 0\nGoodbye\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "py"
+ },
+ {
+  "uid": "C15",
+  "lang": "c",
+  "title": "Simple Bank Account #3 — With Validation",
+  "desc": "Simple Bank Account #3 — With Validation\n\nเหมือนข้อ #2 แต่เพิ่มการตรวจสอบ:\n- จำนวนเงินต้องมากกว่า 0 ไม่งั้นพิมพ์ Invalid amount (ไม่นับรายการ)\n- ถอนเกินยอดคงเหลือ พิมพ์ Insufficient funds (ไม่นับรายการ)\n- เมื่อออก (4) แสดงจำนวนรายการที่สำเร็จ และยอดคงเหลือสุดท้าย\n\nตัวอย่าง\nInput:\n1\n500\n2\n800\n2\n300\n1\n-50\n4\nOutput:\nDeposited 500, Balance = 500\nInsufficient funds\nWithdrew 300, Balance = 200\nInvalid amount\nTransactions = 2\nFinal balance = 200",
+  "java_loc": 33,
+  "tests": [
+   {
+    "name": "TC1 ตัวอย่างในโจทย์",
+    "input": "1\n500\n2\n800\n2\n300\n1\n-50\n4\n\n",
+    "expected": "<must>\nDeposited 500, Balance = 500\nInsufficient funds\nWithdrew 300, Balance = 200\nInvalid amount\nTransactions = 2\nFinal balance = 200\n</must>",
+    "hidden": "false",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC2 ทดสอบเพิ่ม",
+    "input": "2\n500\n4\n",
+    "expected": "<must>\nInsufficient funds\nTransactions = 0\nFinal balance = 0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC3 ทดสอบเพิ่ม",
+    "input": "1\n100\n2\n50\n4\n",
+    "expected": "<must>\nDeposited 100, Balance = 100\nWithdrew 50, Balance = 50\nTransactions = 2\nFinal balance = 50\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   },
+   {
+    "name": "TC4 ทดสอบเพิ่ม",
+    "input": "1\n0\n4\n",
+    "expected": "<must>\nInvalid amount\nTransactions = 0\nFinal balance = 0\n</must>",
+    "hidden": "true",
+    "mode": "collapse_ws,must"
+   }
+  ],
+  "ext": "c"
+ }
+]

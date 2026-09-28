@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use SPII-Bench or these scripts, please cite the accompanying article."
+title: "Replication package: Lightweight multi-signal code similarity for novice programming labs"
+authors:
+  - name: "Faculty of Informatics, Burapha University"
+license: ["MIT", "CC-BY-4.0"]
+version: "1.0.0"
+date-released: "2026-09-28"

@@ -1,0 +1,33 @@
+# ==============================================================
+# Programming Fundamentals - Lab exercise
+# Task    : Grade Evaluator #3 -- Class Summary
+# Student : <student id> <full name>
+# ==============================================================
+import sys
+
+
+def main():
+    tokens = sys.stdin.read().split()
+    pos = 0
+    count = int(tokens[pos]); pos += 1
+    num_passed = 0
+    top_score = -(2 ** 31)
+    sum_scores = 0.0
+
+    for k in range(count):
+        score = int(tokens[pos]); pos += 1
+        sum_scores += score
+        if score >= 50:
+            num_passed += 1
+        if score > top_score:
+            top_score = score
+
+    print(f"Passed = {num_passed}")
+    print(f"Failed = {count - num_passed}")
+    mean_score = sum_scores / count if count > 0 else 0
+    print(f"Average = {mean_score:.2f}")
+    print(f"Highest = {top_score}")
+
+
+if __name__ == "__main__":
+    main()
